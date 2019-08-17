@@ -1,25 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+
 html, body, div, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 :root {
-    --main-color-1: #A4E2CE;
-    --main-color-2: #CDE0E9;
-    --main-color-3: #EDD7C1;
-    --main-color-4: #4AA9DA;
-    --main-color-5: #F8F3F5;
+    --main-color-1: #040645;
+    --main-color-2: #9AF2FB;
+    --main-color-3: #064BCB;
+    --main-color-4: #1AC1F8;
+    --main-color-5: #04218A;
 }
 
 body {
-    background-color: var(--main-color-1);
+    background-color: var(--main-color-2);
 }
 
 /* Start Header */
 
 .header {
     text-align: center;
+    position: relative;
+    overflow: hidden;
+    /* width: 100%; */
+    color: var(--main-color-2);
+    background: var(--main-color-1);
+}
+
+.header::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: .4;
+    background-image: url("../../images/header-background-2.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+
+.header h3 {
+    padding: 2% 0;
+    font-size: 5vw;
+    z-index: 2;
+    position: relative;
 }
 
 /* End Header */
+
+/* Start iframe */
+
+.iframe {
+    text-align: center;
+}
+
+iframe {
+    frameborders: 0;
+    width: 98%;
+    height: 580px;
+    border: 1px solid var(--main-color-4);
+}
+
+/* End iframe */
