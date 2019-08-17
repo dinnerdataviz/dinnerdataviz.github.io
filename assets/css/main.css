@@ -45,11 +45,26 @@ body {
     background-position: 50% 0;
 }
 
-.header h3 {
-    padding: 2% 0;
-    font-size: 5vw;
+.header__text {
+    padding: .2em 0;
+    font-size: 4em;
+    font-weight: 900;
     z-index: 2;
     position: relative;
+}
+
+.header__text .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.header__text .letter {
+    display: inline-block;
+    line-height: 1em;
 }
 
 /* End Header */
@@ -61,7 +76,7 @@ body {
 }
 
 iframe {
-    frameborders: 0;
+    /* frameborders: 0; */
     width: 98%;
     height: 580px;
     border: 1px solid var(--main-color-4);
