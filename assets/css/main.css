@@ -1,0 +1,25 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    --main-color-1: #A4E2CE;
+    --main-color-2: #CDE0E9;
+    --main-color-3: #EDD7C1;
+    --main-color-4: #4AA9DA;
+    --main-color-5: #F8F3F5;
+}
+
+body {
+    background-color: var(--main-color-1);
+}
+
+/* Start Header */
+
+.header {
+    text-align: center;
+}
+
+/* End Header */
