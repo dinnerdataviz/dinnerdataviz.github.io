@@ -16,7 +16,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p {
 }
 
 body {
-    background-color: var(--main-color-2);
+    background-color: var(--main-color-1);
 }
 
 /* Start Header */
@@ -83,3 +83,13 @@ iframe {
 }
 
 /* End iframe */
+
+/* Start waiting content */
+.waiting-container {
+    background: black;
+}
+.waiting-image {
+    width: 100%;
+}
+
+/* End waiting content */
