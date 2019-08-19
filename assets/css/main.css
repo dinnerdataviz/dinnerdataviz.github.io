@@ -78,7 +78,7 @@ body {
 iframe {
     /* frameborders: 0; */
     width: 98%;
-    height: 580px;
+    height: 80vh;
     border: 1px solid var(--main-color-4);
 }
 
