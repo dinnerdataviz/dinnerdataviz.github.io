@@ -1,0 +1,24 @@
+{
+  "name": "dinnerdataviz.github.io",
+  "version": "1.0.0",
+  "description": "Dinner Data Viz library",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log('Hello World')",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinnerdataviz/dinnerdataviz.github.io.git"
+  },
+  "author": "jgarabedian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinnerdataviz/dinnerdataviz.github.io/issues"
+  },
+  "homepage": "https://github.com/dinnerdataviz/dinnerdataviz.github.io#readme",
+  "devDependencies": {
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}
