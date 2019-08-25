@@ -27,11 +27,11 @@ body {
     position: relative;
     overflow: hidden;
     /* width: 100%; */
-    color: var(--main-color-2);
-    background: var(--main-color-1);
+    color: var(--main-color-1);
+    background-image: linear-gradient(to right, var(--main-color-4), var(--main-color-3) );
 }
 
-.header::before {
+/* .header::before {
     content: '';
     display: block;
     position: absolute;
@@ -44,7 +44,7 @@ body {
     background-image: url("../../images/header-background-2.jpg");
     background-repeat: no-repeat;
     background-position: 50% 0;
-}
+} */
 
 .header__text {
     padding: .2em 0;
