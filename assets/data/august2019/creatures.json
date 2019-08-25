@@ -1,0 +1,92 @@
+[
+    {
+      "Creature": "Human",
+      "Mass (grams)": 90000,
+      "Resting Heart Rate (BPM)": 60,
+      "Longevity (Years)": 70
+    },
+    {
+      "Creature": "Cat",
+      "Mass (grams)": 2000,
+      "Resting Heart Rate (BPM)": 150,
+      "Longevity (Years)": 15
+    },
+    {
+      "Creature": "Small dog",
+      "Mass (grams)": 2000,
+      "Resting Heart Rate (BPM)": 100,
+      "Longevity (Years)": 10
+    },
+    {
+      "Creature": "Medium dog",
+      "Mass (grams)": 5000,
+      "Resting Heart Rate (BPM)": 90,
+      "Longevity (Years)": 15
+    },
+    {
+      "Creature": "Large dog",
+      "Mass (grams)": 8000,
+      "Resting Heart Rate (BPM)": 75,
+      "Longevity (Years)": 17
+    },
+    {
+      "Creature": "Hamster",
+      "Mass (grams)": 60,
+      "Resting Heart Rate (BPM)": 450,
+      "Longevity (Years)": 3
+    },
+    {
+      "Creature": "Chicken",
+      "Mass (grams)": 1500,
+      "Resting Heart Rate (BPM)": 275,
+      "Longevity (Years)": 15
+    },
+    {
+      "Creature": "Monkey",
+      "Mass (grams)": 5000,
+      "Resting Heart Rate (BPM)": 190,
+      "Longevity (Years)": 15
+    },
+    {
+      "Creature": "Horse",
+      "Mass (grams)": 1200000,
+      "Resting Heart Rate (BPM)": 44,
+      "Longevity (Years)": 40
+    },
+    {
+      "Creature": "Cow",
+      "Mass (grams)": 800000,
+      "Resting Heart Rate (BPM)": 65,
+      "Longevity (Years)": 22
+    },
+    {
+      "Creature": "Pig",
+      "Mass (grams)": 150000,
+      "Resting Heart Rate (BPM)": 70,
+      "Longevity (Years)": 25
+    },
+    {
+      "Creature": "Rabbit",
+      "Mass (grams)": 1000,
+      "Resting Heart Rate (BPM)": 205,
+      "Longevity (Years)": 9
+    },
+    {
+      "Creature": "Elephant",
+      "Mass (grams)": 5000000,
+      "Resting Heart Rate (BPM)": 30,
+      "Longevity (Years)": 70
+    },
+    {
+      "Creature": "Giraffe",
+      "Mass (grams)": 900000,
+      "Resting Heart Rate (BPM)": 65,
+      "Longevity (Years)": 20
+    },
+    {
+      "Creature": "Large whale",
+      "Mass (grams)": 120000000,
+      "Resting Heart Rate (BPM)": 20,
+      "Longevity (Years)": 80
+    }
+  ]

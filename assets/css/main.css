@@ -8,15 +8,16 @@ html, body, div, h1, h2, h3, h4, h5, h6, p {
 }
 
 :root {
-    --main-color-1: #040645;
-    --main-color-2: #9AF2FB;
-    --main-color-3: #064BCB;
-    --main-color-4: #1AC1F8;
-    --main-color-5: #04218A;
+    --main-color-1: #5F6770;
+    --main-color-2: #BBC4CC;
+    --main-color-3: #DCE6EF;
+    --main-color-4: #8DACC6;
+    --main-color-5: #A0C0D9;
 }
 
 body {
-    background-color: var(--main-color-1);
+    /* background-color: var(--main-color-2); */
+    overflow: hidden;
 }
 
 /* Start Header */
@@ -69,10 +70,49 @@ body {
 
 /* End Header */
 
+/* Start Scatter */
+
+#scatter {
+    width: 100%;
+    background-color: var(--main-color-2);
+    padding-bottom: 5vh;
+    min-height: 70vh;
+}
+
+#scatter svg {
+    width: 98%;
+    border: 1px solid var(--main-color-4);
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 1%;
+}
+
+.tooltip {
+    position: absolute;
+    font-size: 12px;
+    width:  auto;
+    height: auto;
+    pointer-events: none;
+    background-color: white;
+}   
+
+/* End Scatter */
+
+/* Start loading frame */
+
+.loading {
+    text-align: center;
+    border: 1px solid var(--main-color-4);
+    height: 80vh;
+}
+
+/* End loading frame */
+
 /* Start iframe */
 
 .iframe {
     text-align: center;
+    display: none;
 }
 
 iframe {

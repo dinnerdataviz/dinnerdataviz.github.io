@@ -1,4 +1,4 @@
-Creature,Mass (grams),Resting Heart Rate (BPM),Longevity (Years)
+Creature,Mass,RestingHeartRate,Longevity
 Human,90000,60,70
 Cat,2000,150,15
 Small dog,2000,100,10

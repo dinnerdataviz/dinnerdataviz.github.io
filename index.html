@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Data Viz</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="stylesheet" href="./assets/css/main.css">
+<head>
+    <title>Data Viz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./assets/css/main.css">
 
-        <!-- Javascript -->
-        <script src="./assets/js/main.js"></script>
-        <script src="./assets/js/anime.min.js"></script>
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> -->
-    </head>
-    <body onload="animateText()">
-        <div class="header" id="header-tag">
-            <h3 class="header__text">
-                <span class="text-wrapper">
-                    <span class="letters">Dinner and Data Viz</span>
-                </span>
-            </h3>
-        </div>
-        <div class="iframe">
-                <iframe src="https://play.semoss.org/SemossWeb/#!/insight?type=single&engine=b53e24d1-bcdc-449f-9004-fa913d52e3cc&id=bd8ebb2c-562f-48a5-b611-9c54461b2782&panel=0"></iframe>
-        </div>
-    </body>
+    <!-- Javascript -->
+    <script src="./assets/js/main.js"></script>
+
+    <!-- d3 -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="//d3plus.org/js/d3plus.js"></script>
+
+
+    <!-- <script src="./assets/js/anime.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> -->
+</head>
+
+<body>
+    <div class="header" id="header-tag">
+        <h3 class="header__text">
+            <span class="text-wrapper">
+                <span class="letters">Dinner and Data Viz</span>
+            </span>
+        </h3>
+    </div>
+    <!-- <div id="sampleViz">
+        <script type="text/javascript" src="./assets/charts/sampleChart.js"></script>
+    </div> -->
+    <div id="scatter">
+        <script type="text/javascript" src="./assets/charts/scatter.creatures.js"></script>
+    </div>
+    <!-- <div class="iframe">
+            <iframe src="https://play.semoss.org/SemossWeb/#!/insight?type=single&engine=b53e24d1-bcdc-449f-9004-fa913d52e3cc&id=bd8ebb2c-562f-48a5-b611-9c54461b2782&panel=0"></iframe>
+        </div> -->
+</body>
+
 </html>
