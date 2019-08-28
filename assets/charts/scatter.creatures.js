@@ -68,7 +68,7 @@ function paint() {
     // var color = colorScale(d.manufacturer);
       color = '#8DACC6';
       var html  = "<span style='color:" + color + ";'>" + d.Creature + "</span><br/>" +
-        "<b>" + d.Mass + "</b> Grams, <b/>" + d.RestingHeartRate + "</b> bpm";
+        "<b>" + d.Mass + "</b> Grams, <b/>" + d.RestingHeartRate + "</b> bpm, <b/>" + d.Longevity + "</b> Years";
 
     tooltip.html(html)
       .style("left", (d3.event.pageX + 15) + "px")
