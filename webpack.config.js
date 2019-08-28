@@ -3,6 +3,7 @@ const path = require('path');
 // main configuration
 
 module.exports = {
+
     // path to entry point
     entry: './assets/js/index.js',
 
@@ -12,5 +13,19 @@ module.exports = {
         filename: 'bundle.js'
     },
 
-    mode: 'development'
+    mode: 'development',
+
+    // rules: [
+    //     {
+    //       test: /\.js$/,
+    //       exclude: /(node_modules)/,
+    //       use: {
+    //         loader: 'babel-loader',
+    //         options: {
+    //           presets: ['@babel/preset-env']
+    //         }
+    //       }
+    //     }
+    // ]
 };
+

@@ -16,7 +16,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p {
 }
 
 body {
-    /* background-color: var(--main-color-2); */
+    background-color: var(--main-color-2);
     overflow: hidden;
 }
 
